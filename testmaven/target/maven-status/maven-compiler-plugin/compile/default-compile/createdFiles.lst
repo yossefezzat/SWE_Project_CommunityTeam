@@ -1,0 +1,10 @@
+Model\Follow.class
+Model\User.class
+Model\Voting.class
+Service\APIService.class
+Model\Comment.class
+Model\Post.class
+Controller\App.class
+Model\Notification.class
+Model\Reply.class
+Controller\APIController.class

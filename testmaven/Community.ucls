@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="Community.Post" project="CommunityAPI" 
-    file="/CommunityAPI/src/main/java/Community/Post.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="1" language="java" name="Controller.Post" project="communityComponent" 
+    file="/communityComponent/src/main/java/Controller/Post.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="163" y="434"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -10,8 +10,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="Community.Follow" project="CommunityAPI" 
-    file="/CommunityAPI/src/main/java/Community/Follow.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="2" language="java" name="Model.Follow" project="communityComponent" 
+    file="/communityComponent/src/main/java/Model/Follow.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="372" y="410"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -19,8 +19,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="Community.Comment" project="CommunityAPI" 
-    file="/CommunityAPI/src/main/java/Community/Comment.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="3" language="java" name="Model.Comment" project="communityComponent" 
+    file="/communityComponent/src/main/java/Model/Comment.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="459" y="635"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -28,8 +28,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="Community.User" project="CommunityAPI" 
-    file="/CommunityAPI/src/main/java/Community/User.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="4" language="java" name="Model.User" project="communityComponent" 
+    file="/communityComponent/src/main/java/Model/User.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="483" y="94"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -37,8 +37,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="Community.Reply" project="CommunityAPI" 
-    file="/CommunityAPI/src/main/java/Community/Reply.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="5" language="java" name="Model.Reply" project="communityComponent" 
+    file="/communityComponent/src/main/java/Model/Reply.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="772" y="632"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -46,8 +46,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="Community.Voting" project="CommunityAPI" 
-    file="/CommunityAPI/src/main/java/Community/Voting.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="6" language="java" name="Model.Voting" project="communityComponent" 
+    file="/communityComponent/src/main/java/Model/Voting.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="555" y="404"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -55,8 +55,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="7" language="java" name="Community.Notification" project="CommunityAPI" 
-    file="/CommunityAPI/src/main/java/Community/Notification.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="7" language="java" name="Model.Notification" project="communityComponent" 
+    file="/communityComponent/src/main/java/Model/Notification.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="773" y="359"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -66,50 +66,62 @@
   </class>  
   <association id="8">    
     <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="9" name="followObject"/>      
-      <multiplicity id="10" minimum="0" maximum="1"/>    
+      <attribute id="9" name="followObject">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="10" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="2" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <association id="11">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="12" name="replies"/>      
-      <multiplicity id="13" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="5" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="14">    
-    <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="15" name="comments"/>      
-      <multiplicity id="16" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="17">    
     <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="18" name="posts"/>      
-      <multiplicity id="19" minimum="0" maximum="2147483647"/>    
+      <attribute id="12" name="posts">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="13" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="20">    
+  <association id="14">    
     <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="21" name="vote"/>      
-      <multiplicity id="22" minimum="0" maximum="1"/>    
+      <attribute id="15" name="notify">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="16" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="17">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="18" name="vote">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="19" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="6" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="23">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="24" name="notify"/>      
-      <multiplicity id="25" minimum="0" maximum="1"/>    
+  <association id="20">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="21" name="replies">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="22" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
-    <end type="TARGET" refId="7" navigable="true"/>    
+    <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
