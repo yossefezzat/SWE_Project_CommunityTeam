@@ -29,11 +29,25 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+	<classpathentry kind="lib" path="D:/Work Programs/eclipse/java-latest-released/javax.json-1.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/3rd_2nd Term/SWE-2/testmaven/h2-1.4.182.jar"/>
+	<classpathentry kind="lib" path="D:/Work Programs/eclipse/javax.annotation-api-1.3.2.jar"/>
+	<classpathentry kind="lib" path="D:/Work Programs/eclipse/spring-aop-5.0.9.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Work Programs/eclipse/spring-beans-5.0.9.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Work Programs/eclipse/spring-boot-2.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Work Programs/eclipse/spring-boot-autoconfigure-2.0.5.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Work Programs/eclipse/spring-boot-starter-2.0.5.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Work Programs/eclipse/spring-boot-starter-logging-2.0.5.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Work Programs/eclipse/spring-context-5.0.9.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Work Programs/eclipse/spring-core-5.0.9.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Work Programs/eclipse/spring-expression-5.0.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Work Programs/eclipse/spring-jcl-5.0.9.RELEASE.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/Work Programs/eclipse/java-latest-released/javax.json-1.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Work Programs/eclipse/spring-boot-starter-security-1.5.20.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/3rd_2nd Term/SWE-2/testmaven/hibernate-core-5.2.17.Final.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

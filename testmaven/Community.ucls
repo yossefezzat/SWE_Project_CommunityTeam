@@ -1,115 +1,235 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="Community.Post" project="CommunityAPI" 
-    file="/CommunityAPI/src/main/java/Community/Post.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="163" y="434"/>    
+  <class id="1" language="java" name="Controller.Post" project="CommunityAPI" 
+    file="/CommunityAPI/src/main/java/Controller/Post.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="321" y="766"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="Community.Follow" project="CommunityAPI" 
-    file="/CommunityAPI/src/main/java/Community/Follow.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="372" y="410"/>    
+  <class id="2" language="java" name="Controller.Comment" project="CommunityAPI" 
+    file="/CommunityAPI/src/main/java/Controller/Comment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="274" y="258"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="Community.Comment" project="CommunityAPI" 
-    file="/CommunityAPI/src/main/java/Community/Comment.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="459" y="635"/>    
+  <class id="3" language="java" name="Controller.CommentContoller" project="CommunityAPI" 
+    file="/CommunityAPI/src/main/java/Controller/CommentContoller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1098" y="204"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="Community.User" project="CommunityAPI" 
-    file="/CommunityAPI/src/main/java/Community/User.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="483" y="94"/>    
+  <class id="4" language="java" name="Controller.PostController" project="CommunityAPI" 
+    file="/CommunityAPI/src/main/java/Controller/PostController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="841" y="222"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="Community.Reply" project="CommunityAPI" 
-    file="/CommunityAPI/src/main/java/Community/Reply.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="772" y="632"/>    
+  <class id="5" language="java" name="Controller.voteService" project="CommunityAPI" 
+    file="/CommunityAPI/src/main/java/Controller/voteService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1318" y="478"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="Community.Voting" project="CommunityAPI" 
-    file="/CommunityAPI/src/main/java/Community/Voting.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="555" y="404"/>    
+  <class id="6" language="java" name="Controller.User" project="CommunityAPI" 
+    file="/CommunityAPI/src/main/java/Controller/User.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="474" y="258"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="7" language="java" name="Community.Notification" project="CommunityAPI" 
-    file="/CommunityAPI/src/main/java/Community/Notification.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="773" y="359"/>    
+  <interface id="7" language="java" name="Controller.userRepository" project="CommunityAPI" 
+    file="/CommunityAPI/src/main/java/Controller/userRepository.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="74" width="111" x="1456" y="845"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="8" language="java" name="Controller.CommentRepository" project="CommunityAPI" 
+    file="/CommunityAPI/src/main/java/Controller/CommentRepository.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="74" width="140" x="777" y="854"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="9" language="java" name="Controller.userContoller" project="CommunityAPI" 
+    file="/CommunityAPI/src/main/java/Controller/userContoller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1559" y="213"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="8">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="9" name="followObject"/>      
-      <multiplicity id="10" minimum="0" maximum="1"/>    
+  <interface id="10" language="java" name="Controller.PostRepository" project="CommunityAPI" 
+    file="/CommunityAPI/src/main/java/Controller/PostRepository.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="90" width="172" x="1091" y="840"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="11" language="java" name="Controller.userService" project="CommunityAPI" 
+    file="/CommunityAPI/src/main/java/Controller/userService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1552" y="496"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="Controller.PostService" project="CommunityAPI" 
+    file="/CommunityAPI/src/main/java/Controller/PostService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="841" y="505"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="Controller.API" project="CommunityAPI" 
+    file="/CommunityAPI/src/main/java/Controller/API.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="651" y="79"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="Controller.voteController" project="CommunityAPI" 
+    file="/CommunityAPI/src/main/java/Controller/voteController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1347" y="195"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="Controller.CommentService" project="CommunityAPI" 
+    file="/CommunityAPI/src/main/java/Controller/CommentService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1077" y="487"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="16">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="17" name="userRepo"/>      
+      <multiplicity id="18" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="19">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="20" name="comments"/>      
+      <multiplicity id="21" minimum="0" maximum="2147483647"/>    
     </end>    
     <end type="TARGET" refId="2" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="11">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="12" name="replies"/>      
-      <multiplicity id="13" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="5" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="14">    
-    <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="15" name="comments"/>      
-      <multiplicity id="16" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="17">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="18" name="posts"/>      
-      <multiplicity id="19" minimum="0" maximum="2147483647"/>    
+  <association id="22">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="23" name="post"/>      
+      <multiplicity id="24" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="20">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="21" name="vote"/>      
-      <multiplicity id="22" minimum="0" maximum="1"/>    
+  <association id="25">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="26" name="service"/>      
+      <multiplicity id="27" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
+    <end type="TARGET" refId="15" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="23">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="24" name="notify"/>      
-      <multiplicity id="25" minimum="0" maximum="1"/>    
+  <association id="28">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="29" name="service"/>      
+      <multiplicity id="30" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="7" navigable="true"/>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="31">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="32" name="postrepo"/>      
+      <multiplicity id="33" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="34">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="35" name="comRepo"/>      
+      <multiplicity id="36" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="37">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="38" name="votepost"/>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="40">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="41" name="postRepo"/>      
+      <multiplicity id="42" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="43">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="44" name="postservice"/>      
+      <multiplicity id="45" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="46">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="47" name="service"/>      
+      <multiplicity id="48" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="49">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="50" name="comRepo"/>      
+      <multiplicity id="51" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
