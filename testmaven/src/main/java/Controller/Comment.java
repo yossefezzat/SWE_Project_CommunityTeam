@@ -13,7 +13,7 @@ public class Comment {
 	private String data;
 	private Long User_ID;
 
-	@ManyToOne
+	@ManyToOne(cascade = CascadeType.ALL)
 	private Post post;
 
 	
@@ -26,11 +26,11 @@ public class Comment {
 	public void setData(String data) {
 		this.data = data;
 	}
-	public Long getComment_ID() {
+	public Long getCommentId() {
 		return CommentId;
 	}
-	public void setComment_ID(Long comment_ID) {
-		CommentId = comment_ID;
+	public void setCommentId(Long commentId) {
+		CommentId = commentId;
 	}
 	public Long getUser_ID() {
 		return User_ID;
@@ -38,6 +38,8 @@ public class Comment {
 	public void setUser_ID(Long user_ID) {
 		User_ID = user_ID;
 	}
+
+	
 
 
 

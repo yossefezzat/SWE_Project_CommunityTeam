@@ -43,7 +43,7 @@
 			<version>2.0.0.RELEASE</version>
 			<scope>compile</scope>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
@@ -62,7 +62,11 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<finalName>Community-docker</finalName>
+				</configuration>
 			</plugin>
 		</plugins>
+
 	</build>
 </project>

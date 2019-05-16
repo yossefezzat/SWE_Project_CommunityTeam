@@ -49,14 +49,5 @@
 	</classpathentry>
 	<classpathentry exported="true" kind="lib" path="D:/Work Programs/eclipse/spring-boot-starter-security-1.5.20.RELEASE.jar"/>
 	<classpathentry exported="true" kind="lib" path="D:/3rd_2nd Term/SWE-2/testmaven/hibernate-core-5.2.17.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Joe/.m2/repository/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar" sourcepath="C:/Users/Joe/.m2/repository/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="mysql"/>
-			<attribute name="maven.artifactId" value="mysql-connector-java"/>
-			<attribute name="maven.version" value="5.1.47"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
